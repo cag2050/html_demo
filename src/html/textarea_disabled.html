@@ -6,9 +6,11 @@
     <script src="../js/lib/jquery.min.js"></script>
 </head>
 <body>
-<textarea class="form-control" rows="3" id="failure-emails" disabled="disabled">1111111</textarea>
+<textarea class="form-control" rows="3" id="failure-emails" disabled="disabled" placeholder="测试placeholder">1111111</textarea>
 
 <script>
+    console.log($('#failure-emails').val())
+    console.log(typeof $('#failure-emails').val())
     $('#failure-emails').removeAttr('disabled')
     console.log($('#failure-emails').val())
 </script>
