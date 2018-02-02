@@ -9,7 +9,7 @@
 <textarea class="form-control" rows="3" id="failure-emails" disabled="disabled" placeholder="测试placeholder">1111111</textarea>
 
 <script>
-    console.log($('#failure-emails').val())
+    $('#failure-emails').val('修改后的value')
     console.log(typeof $('#failure-emails').val())
     $('#failure-emails').removeAttr('disabled')
     console.log($('#failure-emails').val())
